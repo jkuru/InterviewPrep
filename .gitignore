@@ -1,0 +1,33 @@
+
+# Gradle
+.gradle
+build/
+!build/kotlin/compileKotlin/cacheable/dirty-sources.txt
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Build files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Caches
+.classpath
+.project
+.settings/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
